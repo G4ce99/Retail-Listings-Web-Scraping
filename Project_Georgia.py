@@ -109,7 +109,7 @@ myDF1.head()
 myDF1.shape[0]
 
 compression_opts = dict(method='zip', archive_name='Georgia_Retail_Lease_1.csv')  
-myDF1.to_csv('Georgia_Dad_Work_1.zip', index=False, compression=compression_opts)
+myDF1.to_csv('Georgia_Work_1.zip', index=False, compression=compression_opts)
 
 myDF2 = pd.DataFrame()
 for county in counties_list2:
@@ -120,7 +120,7 @@ myDF2.tail()
 myDF2.shape[0]
 
 compression_opts = dict(method='zip', archive_name='Georgia_Retail_Lease_2.csv')  
-myDF2.to_csv('Georgia_Dad_Work_2.zip', index=False, compression=compression_opts)
+myDF2.to_csv('Georgia_Work_2.zip', index=False, compression=compression_opts)
 
 myDF3 = pd.DataFrame()
 for county in counties_list3:
@@ -131,4 +131,4 @@ myDF3.tail()
 myDF3.shape[0]
 
 compression_opts = dict(method='zip', archive_name='Georgia_Retail_Lease_3.csv')  
-myDF3.to_csv('Georgia_Dad_Work_3.zip', index=False, compression=compression_opts)
+myDF3.to_csv('Georgia_Work_3.zip', index=False, compression=compression_opts)
